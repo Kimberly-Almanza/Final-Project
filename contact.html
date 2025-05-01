@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Wilderness Peaks Resort | Contact</title>
+        <meta name="author" content="Kimberly Almanza">
+        <meta name="description" content="Contact Wilderness Peaks Resort to schedule your trip in Swiss Alps.">
+
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Lora&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="hero">
+                <header>
+                    <h1><a href="index.html">Wilderness Peaks Resort</a></h1>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Accommodations</a></li>
+                            <li><a href="contact.html" class="active">Contact</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+            <main>
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *</p>
+
+                <img class="center-image" src="images/swiss-sunset.jpg" alt="Sunset with trees and mountains" width="710" height="270">
+         
+                <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                    <div class="contact-form">
+                        <div class="form-left">
+                            <label for="full-name">Full Name *</label>
+                            <input type="text" id="full-name" name="full-name" required>
+
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+
+                        <div class="form-right">
+                            <fieldset class="contact-method">
+                                <legend>Preferred Contact Method</legend>
+                
+                                <input type="radio" id="contact-email" name="contact-method" value="email" checked required>
+                                <label for="contact-email">Email</label>
+
+                                <input type="radio" id="contact-phone" name="contact-method" value="phone" required>
+                                <label for="contact-phone">Phone</label>
+                            </fieldset>
+                
+                            <label for="comments">Comments *</label>
+                            <textarea id="comments" name="comments" required></textarea>
+
+                            <button type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </main>
+            <footer>
+                <p>Copyright ©2023 - Wilderness Peaks Resort</p>
+                <p>This site is for educational purposes only</p>
+            </footer>
+        </div>
+    </body>
+</html>
